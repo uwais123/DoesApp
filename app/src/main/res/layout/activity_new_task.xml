@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#f4f4f4"
+    tools:context=".NewTaskAct">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="198dp"
+        android:orientation="vertical"
+        android:background="#2B1D45">
+
+        <TextView
+            android:id="@+id/titlePage"
+            android:layout_marginTop="20dp"
+            android:textSize="26sp"
+            android:textColor="#FFF"
+            android:text="Add New Does"
+            android:layout_marginBottom="28dp"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <View
+            android:layout_marginTop="20dp"
+            android:background="#2B1D45"
+            android:layout_width="match_parent"
+            android:layout_height="1dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="-40dp"
+        android:background="@drawable/bgcard"
+        android:paddingTop="22dp"
+        android:paddingBottom="22dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/addtitle"
+                android:textSize="18sp"
+                android:textColor="@color/colorPrimaryDark"
+                android:text="Add Title"
+                android:layout_marginBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/titleDoes"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:inputType="text"
+                android:paddingLeft="12dp"
+                android:textColorHint="#b5b5b5"
+                android:textColor="@color/colorPrimaryDark"
+                android:background="@drawable/bginputtask"
+                android:hint="What will you do?" />
+
+         </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/addDesc"
+                android:textSize="18sp"
+                android:textColor="@color/colorPrimaryDark"
+                android:text="Description"
+                android:layout_marginBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/descDoes"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:inputType="text"
+                android:paddingLeft="12dp"
+                android:textColorHint="#b5b5b5"
+                android:maxLength="35"
+                android:textColor="@color/colorPrimaryDark"
+                android:background="@drawable/bginputtask"
+                android:hint="How To?" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/adddate"
+                android:textSize="18sp"
+                android:textColor="@color/colorPrimaryDark"
+                android:text="Timeline"
+                android:layout_marginBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/dateDoes"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:inputType="text"
+                android:paddingLeft="12dp"
+                android:textColorHint="#b5b5b5"
+                android:textColor="@color/colorPrimaryDark"
+                android:background="@drawable/bginputtask"
+                android:hint="When will?" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+    
+    <Button
+        android:id="@+id/btnSaveTask"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="14dp"
+        android:text="Create Now"
+        android:textColor="@android:color/white"
+        android:textAllCaps="false"
+        android:textSize="22sp"
+        android:background="@drawable/bgbtncreate"
+        android:layout_width="match_parent"
+        android:layout_height="55dp" />
+
+    <Button
+        android:id="@+id/btnCancel"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="14dp"
+        android:text="Cancel"
+        android:textColor="#afafaf"
+        android:textAllCaps="false"
+        android:textSize="22sp"
+        android:background="@drawable/bgbtncancel"
+        android:layout_width="match_parent"
+        android:layout_height="55dp" />
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--end-->
